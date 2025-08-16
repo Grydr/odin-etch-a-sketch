@@ -58,6 +58,7 @@ resetButton.addEventListener("click", (e) => {
     const allBoxes = gridContainer.querySelectorAll(".box");
     allBoxes.forEach(box => {
         box.style.backgroundColor = "unset";
+        box.style.opacity = "0.1";
     });
 });
 
